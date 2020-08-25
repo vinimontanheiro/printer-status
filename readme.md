@@ -1,4 +1,4 @@
-## Getting the Windows Printer Status
+## Getting the Printer Status on Windows
 
 ### Outputing the main.o bytecode with x64 architecture
 ```
