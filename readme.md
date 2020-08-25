@@ -1,17 +1,14 @@
+## Getting the Windows Printer Status
 
-## Outputing the main.o bytecode with x64 architecture
+### Outputing the main.o bytecode with x64 architecture
 ```
 g++ main.cpp -Wall -c -g -lwinspool -m64 -o main.o
 ```
-
-
-## Outputing the executable with dependencies
+### Outputing the executable with dependencies
 ```
 g++ main.o -static -static-libgcc -static-libstdc++ -lwinspool -o getPrinterStatus.exe
-
 ```
-
-## Windows Printer Status Enumerator
+### Windows Printer Status Enumerator
 
 ![PrinterStatusEnum](https://raw.githubusercontent.com/vmontanheiro/printer-status/master/icons/status.png)
 
