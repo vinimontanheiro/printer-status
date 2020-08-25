@@ -15,5 +15,5 @@ g++ main.o -static -static-libgcc -static-libstdc++ -lwinspool -o getPrinterStat
 
 ![PrinterStatusEnum](https://raw.githubusercontent.com/vmontanheiro/printer-status/master/icons/status.png)
 
-### More info 
-- https://docs.microsoft.com/pt-br/dotnet/api/system.printing.printqueuestatus?view=netcore-3.1
+- [More info](https://docs.microsoft.com/pt-br/dotnet/api/system.printing.printqueuestatus?view=netcore-3.1)
+
