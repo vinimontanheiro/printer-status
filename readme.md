@@ -1,11 +1,11 @@
 
-## Generating the main with architecture
+## Outputing the main.o bytecode with x64 architecture
 ```
 g++ main.cpp -Wall -c -g -lwinspool -m64 -o main.o
 ```
 
 
-## Generating the executable with dependencies
+## Outputing the executable with dependencies
 ```
 g++ main.o -static -static-libgcc -static-libstdc++ -lwinspool -o getPrinterStatus.exe
 
