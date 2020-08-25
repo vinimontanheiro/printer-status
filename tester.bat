@@ -1,0 +1,1 @@
+getPrinterStatus.exe >> teste.txt
